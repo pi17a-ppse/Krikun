@@ -37,6 +37,8 @@
             this.Answ3 = new System.Windows.Forms.RadioButton();
             this.Answ2 = new System.Windows.Forms.RadioButton();
             this.Answ4 = new System.Windows.Forms.RadioButton();
+            this.Answer = new System.Windows.Forms.Button();
+            this.Leave = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.SuspendLayout();
@@ -135,11 +137,31 @@
             this.Answ4.Text = "Ответ 4";
             this.Answ4.UseVisualStyleBackColor = true;
             // 
+            // Answer
+            // 
+            this.Answer.Location = new System.Drawing.Point(307, 210);
+            this.Answer.Name = "Answer";
+            this.Answer.Size = new System.Drawing.Size(95, 54);
+            this.Answer.TabIndex = 7;
+            this.Answer.Text = "Ответить";
+            this.Answer.UseVisualStyleBackColor = true;
+            // 
+            // Leave
+            // 
+            this.Leave.Location = new System.Drawing.Point(419, 210);
+            this.Leave.Name = "Leave";
+            this.Leave.Size = new System.Drawing.Size(154, 55);
+            this.Leave.TabIndex = 8;
+            this.Leave.Text = "Уйти с выигрышем";
+            this.Leave.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(757, 345);
+            this.Controls.Add(this.Leave);
+            this.Controls.Add(this.Answer);
             this.Controls.Add(this.Answ4);
             this.Controls.Add(this.Answ2);
             this.Controls.Add(this.Answ3);
@@ -171,6 +193,8 @@
         private System.Windows.Forms.RadioButton Answ3;
         private System.Windows.Forms.RadioButton Answ2;
         private System.Windows.Forms.RadioButton Answ4;
+        private System.Windows.Forms.Button Answer;
+        private System.Windows.Forms.Button Leave;
     }
 }
 
