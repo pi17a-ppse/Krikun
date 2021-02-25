@@ -33,6 +33,10 @@
             this.Number = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.Money = new System.Windows.Forms.Label();
+            this.Answ1 = new System.Windows.Forms.RadioButton();
+            this.Answ3 = new System.Windows.Forms.RadioButton();
+            this.Answ2 = new System.Windows.Forms.RadioButton();
+            this.Answ4 = new System.Windows.Forms.RadioButton();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.SuspendLayout();
@@ -55,16 +59,18 @@
             this.Question.AutoSize = true;
             this.Question.Location = new System.Drawing.Point(17, 32);
             this.Question.Name = "Question";
-            this.Question.Size = new System.Drawing.Size(0, 20);
+            this.Question.Size = new System.Drawing.Size(73, 20);
             this.Question.TabIndex = 0;
+            this.Question.Text = "Вопрос?";
             // 
             // Number
             // 
             this.Number.AutoSize = true;
             this.Number.Location = new System.Drawing.Point(30, 9);
             this.Number.Name = "Number";
-            this.Number.Size = new System.Drawing.Size(0, 20);
+            this.Number.Size = new System.Drawing.Size(18, 20);
             this.Number.TabIndex = 1;
+            this.Number.Text = "0";
             // 
             // groupBox2
             // 
@@ -85,11 +91,59 @@
             this.Money.TabIndex = 0;
             this.Money.Text = "0";
             // 
+            // Answ1
+            // 
+            this.Answ1.AutoSize = true;
+            this.Answ1.Location = new System.Drawing.Point(13, 210);
+            this.Answ1.Name = "Answ1";
+            this.Answ1.Size = new System.Drawing.Size(88, 24);
+            this.Answ1.TabIndex = 3;
+            this.Answ1.TabStop = true;
+            this.Answ1.Text = "Ответ 1";
+            this.Answ1.UseVisualStyleBackColor = true;
+            // 
+            // Answ3
+            // 
+            this.Answ3.AutoSize = true;
+            this.Answ3.Location = new System.Drawing.Point(13, 241);
+            this.Answ3.Name = "Answ3";
+            this.Answ3.Size = new System.Drawing.Size(84, 24);
+            this.Answ3.TabIndex = 4;
+            this.Answ3.TabStop = true;
+            this.Answ3.Text = "Ответ3";
+            this.Answ3.UseVisualStyleBackColor = true;
+            // 
+            // Answ2
+            // 
+            this.Answ2.AutoSize = true;
+            this.Answ2.Location = new System.Drawing.Point(142, 210);
+            this.Answ2.Name = "Answ2";
+            this.Answ2.Size = new System.Drawing.Size(88, 24);
+            this.Answ2.TabIndex = 5;
+            this.Answ2.TabStop = true;
+            this.Answ2.Text = "Ответ 2";
+            this.Answ2.UseVisualStyleBackColor = true;
+            // 
+            // Answ4
+            // 
+            this.Answ4.AutoSize = true;
+            this.Answ4.Location = new System.Drawing.Point(142, 240);
+            this.Answ4.Name = "Answ4";
+            this.Answ4.Size = new System.Drawing.Size(88, 24);
+            this.Answ4.TabIndex = 6;
+            this.Answ4.TabStop = true;
+            this.Answ4.Text = "Ответ 4";
+            this.Answ4.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(757, 345);
+            this.Controls.Add(this.Answ4);
+            this.Controls.Add(this.Answ2);
+            this.Controls.Add(this.Answ3);
+            this.Controls.Add(this.Answ1);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.Number);
             this.Controls.Add(this.groupBox1);
@@ -113,6 +167,10 @@
         private System.Windows.Forms.Label Number;
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.Label Money;
+        private System.Windows.Forms.RadioButton Answ1;
+        private System.Windows.Forms.RadioButton Answ3;
+        private System.Windows.Forms.RadioButton Answ2;
+        private System.Windows.Forms.RadioButton Answ4;
     }
 }
 
