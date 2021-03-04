@@ -108,7 +108,7 @@
             // Answ2
             // 
             this.Answ2.AutoSize = true;
-            this.Answ2.Location = new System.Drawing.Point(183, 174);
+            this.Answ2.Location = new System.Drawing.Point(326, 174);
             this.Answ2.Name = "Answ2";
             this.Answ2.Size = new System.Drawing.Size(88, 24);
             this.Answ2.TabIndex = 5;
