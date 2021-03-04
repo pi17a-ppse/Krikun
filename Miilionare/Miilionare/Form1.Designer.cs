@@ -86,7 +86,7 @@
             // Answ1
             // 
             this.Answ1.AutoSize = true;
-            this.Answ1.Location = new System.Drawing.Point(13, 210);
+            this.Answ1.Location = new System.Drawing.Point(15, 174);
             this.Answ1.Name = "Answ1";
             this.Answ1.Size = new System.Drawing.Size(88, 24);
             this.Answ1.TabIndex = 3;
@@ -97,7 +97,7 @@
             // Answ3
             // 
             this.Answ3.AutoSize = true;
-            this.Answ3.Location = new System.Drawing.Point(13, 241);
+            this.Answ3.Location = new System.Drawing.Point(13, 204);
             this.Answ3.Name = "Answ3";
             this.Answ3.Size = new System.Drawing.Size(84, 24);
             this.Answ3.TabIndex = 4;
@@ -108,7 +108,7 @@
             // Answ2
             // 
             this.Answ2.AutoSize = true;
-            this.Answ2.Location = new System.Drawing.Point(142, 210);
+            this.Answ2.Location = new System.Drawing.Point(248, 176);
             this.Answ2.Name = "Answ2";
             this.Answ2.Size = new System.Drawing.Size(88, 24);
             this.Answ2.TabIndex = 5;
@@ -119,7 +119,7 @@
             // Answ4
             // 
             this.Answ4.AutoSize = true;
-            this.Answ4.Location = new System.Drawing.Point(142, 240);
+            this.Answ4.Location = new System.Drawing.Point(248, 206);
             this.Answ4.Name = "Answ4";
             this.Answ4.Size = new System.Drawing.Size(88, 24);
             this.Answ4.TabIndex = 6;
