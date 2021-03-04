@@ -14,6 +14,7 @@ namespace Miilionare
     {
         public Form1()
         {
+            int a = 4;
             InitializeComponent();
         }
     }
