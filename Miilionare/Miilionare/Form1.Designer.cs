@@ -129,7 +129,7 @@
             // 
             // Answer
             // 
-            this.Answer.Location = new System.Drawing.Point(307, 210);
+            this.Answer.Location = new System.Drawing.Point(476, 174);
             this.Answer.Name = "Answer";
             this.Answer.Size = new System.Drawing.Size(95, 54);
             this.Answer.TabIndex = 7;
@@ -138,7 +138,7 @@
             // 
             // Leave
             // 
-            this.Leave.Location = new System.Drawing.Point(419, 210);
+            this.Leave.Location = new System.Drawing.Point(591, 174);
             this.Leave.Name = "Leave";
             this.Leave.Size = new System.Drawing.Size(154, 55);
             this.Leave.TabIndex = 8;
