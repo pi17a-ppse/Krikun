@@ -30,7 +30,6 @@
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.Question = new System.Windows.Forms.Label();
-            this.Number = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.Money = new System.Windows.Forms.Label();
             this.Answ1 = new System.Windows.Forms.RadioButton();
@@ -47,7 +46,7 @@
             // 
             this.groupBox1.Controls.Add(this.Question);
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.groupBox1.Location = new System.Drawing.Point(13, 37);
+            this.groupBox1.Location = new System.Drawing.Point(13, 36);
             this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -64,15 +63,6 @@
             this.Question.Size = new System.Drawing.Size(73, 20);
             this.Question.TabIndex = 0;
             this.Question.Text = "Вопрос?";
-            // 
-            // Number
-            // 
-            this.Number.AutoSize = true;
-            this.Number.Location = new System.Drawing.Point(30, 9);
-            this.Number.Name = "Number";
-            this.Number.Size = new System.Drawing.Size(18, 20);
-            this.Number.TabIndex = 1;
-            this.Number.Text = "0";
             // 
             // groupBox2
             // 
@@ -167,7 +157,6 @@
             this.Controls.Add(this.Answ3);
             this.Controls.Add(this.Answ1);
             this.Controls.Add(this.groupBox2);
-            this.Controls.Add(this.Number);
             this.Controls.Add(this.groupBox1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -186,7 +175,6 @@
 
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Label Question;
-        private System.Windows.Forms.Label Number;
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.Label Money;
         private System.Windows.Forms.RadioButton Answ1;
