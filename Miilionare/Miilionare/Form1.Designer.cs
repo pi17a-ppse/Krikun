@@ -135,6 +135,7 @@
             this.Answer.TabIndex = 7;
             this.Answer.Text = "Ответить";
             this.Answer.UseVisualStyleBackColor = true;
+            this.Answer.Click += new System.EventHandler(this.Answer_Click);
             // 
             // Leave
             // 
