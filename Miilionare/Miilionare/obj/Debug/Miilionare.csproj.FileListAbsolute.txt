@@ -1,0 +1,10 @@
+D:\Labs\PPSE\Miilionare\Miilionare\bin\Debug\Miilionare.exe.config
+D:\Labs\PPSE\Miilionare\Miilionare\bin\Debug\Miilionare.exe
+D:\Labs\PPSE\Miilionare\Miilionare\bin\Debug\Miilionare.pdb
+D:\Labs\PPSE\Miilionare\Miilionare\obj\Debug\Miilionare.csprojAssemblyReference.cache
+D:\Labs\PPSE\Miilionare\Miilionare\obj\Debug\Miilionare.Form1.resources
+D:\Labs\PPSE\Miilionare\Miilionare\obj\Debug\Miilionare.Properties.Resources.resources
+D:\Labs\PPSE\Miilionare\Miilionare\obj\Debug\Miilionare.csproj.GenerateResource.cache
+D:\Labs\PPSE\Miilionare\Miilionare\obj\Debug\Miilionare.csproj.CoreCompileInputs.cache
+D:\Labs\PPSE\Miilionare\Miilionare\obj\Debug\Miilionare.exe
+D:\Labs\PPSE\Miilionare\Miilionare\obj\Debug\Miilionare.pdb

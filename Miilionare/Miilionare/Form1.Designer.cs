@@ -145,6 +145,7 @@
             this.Leave.TabIndex = 8;
             this.Leave.Text = "Уйти с выигрышем";
             this.Leave.UseVisualStyleBackColor = true;
+            this.Leave.Click += new System.EventHandler(this.Leave_Click);
             // 
             // Form1
             // 
